@@ -25,7 +25,7 @@ if __name__ == "__main__":
 	args, _ = getopt(sys.argv[1:], "t:g:", ["target", "gateway"])
 
 	if len(sys.argv) < 2:
-		print("[!] Arguments insuficient")
+		print("[!] Arguments insufficient")
 		print("Usage: ")
 		print("-t --target			- set the target IP Address")
 		print("-g --gateway			- set the gateway IP Address")
